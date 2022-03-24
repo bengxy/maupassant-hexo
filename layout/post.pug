@@ -9,9 +9,9 @@ block content
     .post-meta= page.date.format(config.date_format)
       if page.categories.length > 0
         span= ' | '
-        span.category
-          for category in page.categories.toArray()
-            a(href=url_for(category.path))= category.name
+        for category in page.categories.toArray()
+          span.category
+            a(href=url_for(category.path))= category.name + ' '
       if theme.busuanzi == true
         script(src='https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async)
         span#busuanzi_container_page_pv= ' | '
