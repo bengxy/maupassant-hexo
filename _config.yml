@@ -125,12 +125,13 @@ links:
 #    url: http://www.example3.com/
 
 # timeline:
-#  - num: 1
+#  - num: 1
 #    word: 2014/06/12-Start
 
 # Static files
 js: js
 css: css
 
+local_mathjax: true 
 # Theme version
 version: 1.0.0
