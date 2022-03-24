@@ -132,6 +132,6 @@ links:
 js: js
 css: css
 
-local_mathjax: true 
+local_mathjax: false
 # Theme version
 version: 1.0.0
